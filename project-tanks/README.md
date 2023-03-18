@@ -4,7 +4,7 @@ Bryan Herrera's Projects
 Coded By:
 Bryan Herrera, Patrick Nisperos, Adil Hajiyev, Bill Nguyen
 
-A Java 2D game similar to Space Invaders in which the user controls a tank and fires at enemies. Project Tanks has 4 levels with increasing difficulty and gives the user
+A 2D Java game similar to Space Invaders in which the user controls a tank and fires at enemies. Project Tanks has 4 levels with increasing difficulty and gives the user
 a score once they lose or finish all the levels.
 
 Run using Java JRE 1.8.0_202

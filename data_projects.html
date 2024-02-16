@@ -10,19 +10,22 @@
 
         <!-- Header -->
         <section id="header">
+
             <header>
                 <span class="image avatar"><img src="images/headshot.jpg" alt="" /></span>
                 <h1 id="logo">Bryan Herrera</h1>
                 <p>4th Year Computer Science Major<br />
                 Available for Hire</p>
             </header>
+
             <nav id="nav">
                 <ul>
-                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="home.html" class="active">Home</a></li>
                     <li><a href="#films-analysis">Film Industry Analysis</a></li>
                     <li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=baherrera19@gmail.com">Contact</a></li>
                 </ul>
             </nav>
+
             <footer>
                 <ul class="icons">
                     <li><a href="https://www.linkedin.com/in/bryan-herrera-1b5118231" class="icon brands fa-linkedin"><span class="label">Twitter</span></a></li>
@@ -37,31 +40,82 @@
 
             <!-- Main -->
 			<div id="main">
-                <section id="films-analysis">
+                
+                <section id="top">
 
                     <div class="image main" data-position="center">
                         <img src="images/CSBanner.png" alt="" />
                     </div>
 
                     <div class="container">
-                        <span class="image fit">
-                            <header class="major">
-                                <h2>Data Analysis Project</h2>
-                            </header>
+                        <header class="major">
+                            <h2>Data Analysis Projects & Samples</h2>
+                        </header>
+                        <p>
+                            This section contains my various data analysis projects and samples.
+                        </p>
+                    </div>
+                    <!--
+                    <span class="image fit">
+                            
+                        
                             <div class="features" data-position="center">
-                                <img src="images-projects/data-analysis-films/PowerBI Dashboard.jpg" alt="">
+                                <img src="data-analyses-portfolio\film_industry_analysis\images\PowerBI_Dashboard.jpg" alt="">
                             </div>
-                        </span>
+                        
+                    </span>
+                    -->
+                </section>
+                
+                <section id="films-analysis">
 
+                    <div class="container">
                         <div class="inner">
-                            <h2>
-                                Films Analysis
-                            </h2>
+                            <h2>Films Industry Analysis</h2>
                             <p>
-                                This project consists of three steps. I first go through the process of cleaning the data, which was aquired from kaggle, using the pandas library in Python.
+                                This is my first data analysis project consisting of three steps. I first go through the process of cleaning the data, which was aquired from kaggle, using the pandas library in Python.
                                 I then analyze the data using tools such as matplotlib, numpy, and seaborn to verify if there is correlation between variables that I am researching.
                                 Lastly I vizualize the data in an easy to understand format using Microsoft PowerBI.
                             </p>
+                        </div>
+
+                        <div class="container">
+                            <div class="features">
+
+                                <article>
+                                    <img class="image" src="data-analyses-portfolio\film_industry_analysis\images\data_cleaning_pandas.jpg" alt="" />
+                                        <div class="inner">
+        
+                                            <h4>Data Cleaning</h4>
+                                            <p>Through the use of the Python libraries: pandas, and numpy, I am able to change various parts of the data that allow for
+                                                ease of use during analysis. This ranges from removing rows with missing data, matching dates, and cleaning decimal values.
+                                            </p>        
+                                        </div>
+                                </article>
+
+                                <article>
+                                    <img class="image" src="data-analyses-portfolio\film_industry_analysis\images\data_analysis.jpg" alt="" />
+                                        <div class="inner">
+        
+                                            <h4>Data Analysis</h4>
+                                            <p>Through the use of the Python libraries: matplotlib, and seaborn, I am able to create various charts and graphs that allow me
+                                                to find correlations between specific column in my data.
+                                            </p>        
+                                        </div>
+                                </article>
+
+                                <article>
+                                    <img class="image" src="data-analyses-portfolio\film_industry_analysis\images\PowerBI_Dashboard.jpg" alt="" />
+                                        <div class="inner">
+        
+                                            <h4>Data vizualization</h4>
+                                            <p>Using Microsoft PowerBI, I created a dashboard that highlights the correlation between various variables, and how they each
+                                                can correalte with each other. This is done throught the use of various scatter plots, as well as a table.
+                                            </p>        
+                                        </div>
+                                </article>
+
+                            </div>
                         </div>
                     </div>
                 </section>
